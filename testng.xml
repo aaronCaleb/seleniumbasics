@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Parallel Testing Suite">
+    <listeners>
+        <listener class-name="org.rahulshettyacademy.com.utility.TestNGListeners">
+        </listener>
+    </listeners>
+    <test name = "Standalone Tests">
+        <classes>
+            <class name = "testcases.HeaderElementNavigationTest_001" />
+            <class name = "testcases.FooterElementNavigationTest_001" />
+        </classes>
+    </test>
+</suite>
